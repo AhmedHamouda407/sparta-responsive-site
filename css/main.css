@@ -1,0 +1,63 @@
+.navigation li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 80px;
+}
+.navigation ul li{
+ font-size:17px;
+}
+
+
+.images img {
+  height: 300px;
+  width: 300px;
+
+}
+/* .images img{
+  background:  orange;
+}
+
+.images ul li {
+  list-style: none;
+  display: inline-block;
+} */
+
+h1 {
+  text-align: center;
+  font-size: 82px;
+  background: yellow;
+}
+
+.one {
+  width: 33%;
+  border: 1px solid black;
+  float: left;
+}
+
+.two{
+  width: 33%;
+  border: 1px solid black;
+  float: left;
+}
+
+.three {
+  width: 33%;
+  border: 1px solid black;
+  float: left;
+}
+
+@media screen and (max-width:1020px) {
+.one {
+float: right;
+  	width: 100%;
+}
+.two {
+  float: right;
+  width: 100%
+}
+.three {
+  float: right;
+  width:100%
+}
+  }
+}
